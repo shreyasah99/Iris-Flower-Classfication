@@ -64,9 +64,9 @@ model.fit(X_train,y_train)
 model.predict(X_test)
 model.score(X_train, y_train)
 
-img1 = Image.open("C:\\Users\\shrey\\Downloads\\sentosa.jpg")
-img2 = Image.open("C:\\Users\\shrey\\Downloads\\versicolor.jpg")
-img3 = Image.open("C:\\Users\\shrey\\Downloads\\virginia.jpg")
+img1 = Image.open("sentosa.jpg")
+img2 = Image.open("versicolor.jpg")
+img3 = Image.open("virginia.jpg")
 
 
 # prediction for single input
